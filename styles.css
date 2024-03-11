@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(54, 52, 52);
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.img1{
+    text-align: center;
+}
