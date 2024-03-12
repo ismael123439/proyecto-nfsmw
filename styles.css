@@ -1,34 +1,106 @@
-body {
-    background-image: url("/imgs/background.jpg");
-    color: aliceblue;
-    justify-content: center;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
 }
 
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    justify-content: space-between; /* Espacio igual entre los elementos */
+    background-image: url("/imgs/background.jpg");
+    background-size: cover;
+}
 
-.title{
+.titles {
+    background-color: black;
+    color: aliceblue;
     text-align: center;
+    padding: 20px;
+}
+
+.title {
     font-size: 50px;
 }
 
-.title2{
-    text-align: center;
+.title2 {
     font-size: 40px;
-    margin-bottom: 45px;
+    margin-top: 20px; /* Añadir margen superior */
 }
 
-.h2s{
+.container {
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    color: aliceblue;
+    background-color: black;
+    width: 1000px;
+    height: 87%;
+    padding: 20px;
+    margin: auto; /* Centrar el contenedor horizontalmente */
+}
+
+.h2s {
     font-size: 30px;
     margin-left: 30px;
 }
 
-.info{
+.cont-primeros-dos{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.razor-info{
+    border-radius: 5px;
+    background-color:gray;
+    border-color: white;
+    width: 450px;
+}
+
+.bull-info{
+    border-radius: 5px;
+    background-color: red;
+    border-color: white;
+    width: 450px;
+}
+
+.ronnie-info{
+    border-radius: 5px;
+    background-color: purple;
+    border-color: white;
+    width: 450px;
+}
+
+.baron-info{
+    border-radius: 5px;
+    background-color:lightcoral;
+    border-color: white;
+    width: 450px;
+}
+
+.ultimo{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.sonny-info{
+    border-radius: 5px;
+    background-color:green;
+    border-color: white;
+    width: 450px;
+}
+
+.info {
     margin-left: 20px;
     font-size: 15px;
 }
 
-.img1{
-    text-align: center;
+.imgs {
+
 }
