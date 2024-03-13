@@ -17,7 +17,6 @@ body, html {
 }
 
 a{
-  background-color: powderblue;
   transition: background-color 0.5s;
 }
 
