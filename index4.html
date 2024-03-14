@@ -26,13 +26,21 @@
             </ul>
         </section>
         <section id="imagen">
-            <img src="imgs/mercedes4k.jpg">
+            <div class="img-container">
+                <img id="img-slr" src="imgs/mercedes4k.jpg">
+                <div class="message">Click para reproducir sonido del auto</div>
+            </div>
         </section>
         <section id="descripcion">
             <h2>Descripción</h2>
             <p>El Mercedes-Benz SLR McLaren es un automóvil que destaca por su combinación de lujo y rendimiento extremo. Equipado con un motor V8 <span class="tooltip"><a href="https://es.wikipedia.org/wiki/Sobrealimentador">Supercharged</a><span class="tooltiptext">Un motor "supercharged" significa que ha sido mejorado con un sistema de sobrealimentación, como un compresor mecánico o un turbocompresor. Esto aumenta la potencia del motor al aumentar la cantidad de aire y combustible que entra en los cilindros.</span></span> de 5.4 litros, es capaz de alcanzar velocidades impresionantes y ofrecer una experiencia de conducción emocionante.</p>
             <p>Su diseño aerodinámico y sus características técnicas avanzadas lo convierten en una máquina formidable tanto en las carreras callejeras como en las competiciones de circuito.</p>
         </section>
+        <audio id="sonido-slr">
+            <source src="audio/slrsound.mp3" type="audio/mpeg">
+        </audio>
+    
+        <script src="/scripts/script2-slr.js"></script>
     </main>
 </body>
 </html>
