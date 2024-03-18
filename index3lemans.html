@@ -50,6 +50,13 @@
             </ul>
         </section>
     </main>
+    <script>
+        document.querySelector('.lemans').addEventListener('click', function() {
+            var imagenContainer = document.getElementById("imagen");
+            var videoHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/V_rJB2rk3dQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            imagenContainer.innerHTML = videoHTML;
+        });
+    </script>
 </body>
 
 </html>
